@@ -1,47 +1,86 @@
-dictionary = {
-    "1": "One",
-    "2": "Two",
-    "3": "Three",
-    "4": "Four",
-    "5": "Five",
-    "6": "Six",
-    "7": "Seven",
-    "8": "Eight",
-    "9": "Nine",
-    "10": "Ten"
-}
-output = ""
-phone_number = input("Cell Phone Number: ")
-numbers = list(phone_number)
-try:
-    for number in numbers:
-        converted = dictionary.get(number)
-        output = output + " " + converted
-except TypeError:
-    print("Please add 'Numbers' ONLY!")
-print(output.strip())
+def square(number):
+    result = number * number
+    return result
+
+print(f"The Result: {square(5)}")
 
 
 
+# First Function~~~~~~~~~~~~~~~
+# def greeting():
+#     print("Hi There!")
+#     print("Welcome aboard")
+#
+#
+# print("Start")
+# greeting()
+# print("Finish")
 
 
+# Translator~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# message = input(">>>").lower()
+# words = message.split(" ")
+# translations = {
+#     "hello" : "안녕하세요",
+#     "bye" : "안녕히게세요",
+#     "thanx" : "감사합니다",
+#     "my" : "제",
+#     "name" : "이름",
+#     "is" : "은",
+#     "miss" : "보고싶다",
+#     "you" : "너",
+#     "love" : "사랑",
+# }
+#
+# output = ""
+# for word in words:
+#     output = output + translations.get(word, word) + " "
+# print(output)
 
+# Number to word converter ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# phone = input("Phone: ")
+#
+# digits_mapping = {
+#     "1": "One",
+#     "2": "Two",
+#     "3": "Three",
+#     "4": "Four",
+#     "5": "Five",
+#     "6": "Six",
+#     "7": "Seven",
+#     "8": "Eight",
+#     "9": "Nine",
+#     "10": "Ten"
+# }
+#
+# output = ""
+# for ch in phone:
+#     output = output + digits_mapping.get(ch, "letter") + " "
+# print(output)
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# dictionary = {
+#     "1": "One",
+#     "2": "Two",
+#     "3": "Three",
+#     "4": "Four",
+#     "5": "Five",
+#     "6": "Six",
+#     "7": "Seven",
+#     "8": "Eight",
+#     "9": "Nine",
+#     "10": "Ten"
+# }
+# output = ""
+# phone_number = input("Phone: ")
+# numbers = list(phone_number)
+# try:
+#     for number in numbers:
+#         converted = dictionary.get(number)
+#         output = output + " " + converted
+# except TypeError:
+#     print("Please add 'Numbers' ONLY")
+# print(output.strip())
 
 
 #Dictionaries~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,7 +141,6 @@ print(output.strip())
 #     for y in range(4):
 #         for z in range(4):
 #             print(f"({x}, {y}, {z})")
-
 
 
 #Total Price~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
