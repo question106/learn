@@ -11,7 +11,7 @@ dictionary = {
     "10": "Ten"
 }
 output = ""
-phone_number = input("Phone: ")
+phone_number = input("Cell Phone Number: ")
 numbers = list(phone_number)
 try:
     for number in numbers:
