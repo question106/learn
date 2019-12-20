@@ -1,8 +1,58 @@
-def square(number):
-    result = number * number
-    return result
 
-print(f"The Result: {square(5)}")
+
+
+
+
+
+
+
+
+# Try Except ~~~~~~~~~~~~~~~~~~~~~~~
+# print("type 'q' for quit")
+# operating = True
+#
+# while operating:
+#     age = input("Age: ")
+#     if age == "q":
+#         operating = False
+#     else:
+#         try:
+#             print(int(age))
+#         except ValueError:
+#             print("Please input integers ONLY!")
+
+
+# Reusable function~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# def translator(message):
+#     words = message.lower().split(" ")
+#     translations = {
+#         "hello" : "안녕하세요",
+#         "bye" : "안녕히게세요",
+#         "thanx" : "감사합니다",
+#         "my" : "제",
+#         "name" : "이름",
+#         "is" : "은",
+#         "miss" : "보고싶다",
+#         "you" : "너",
+#         "love" : "사랑",
+#     }
+#
+#     output = ""
+#     for word in words:
+#         output = output + translations.get(word, word) + " "
+#     print(output)
+#
+#
+# input = "Hello my name is sanjaa"
+# translator(input)
+
+# # Function Return~~~~~~~~~~~~~~~~~~~~~
+# def square(number):
+#     result = number * number
+#     print(result)
+#     return result * 10
+#
+# print(f"The Result: {square(3)}")
 
 
 
